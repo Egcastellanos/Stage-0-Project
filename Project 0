@@ -1,0 +1,57 @@
+<h1>Stage 0 Notes</h1>
+<p><b>HTML</b></p>
+<em>HTML</em> - Hypertext Markup Language<br>
+<br><b>HTML is made up of:</b><br>
+-text content: What you see<br>
+-Markup: What it looks like<br>
+-References to other documents: images, videos, and etc. <br>
+-Links to ther pages 
+<p><b>HTML Markup</b></p>
+< name > Contents < / name > <br>
+< > is the opening tag<br>x
+< / > is the closing tag<br>
+<em>All of this</em> put tother is an example of an <b>element</b>.<br>
+<p><b>Examples of Tags</b></p>
+< b > word < / b ><br>
+The "b" stands for bold. The end end result makes <b>word</b> inside of the tags <b>bold</b>.<br>
+<br> < em > empahasis < / em >
+<br>This tag makes whatever is inside of it in italics. The "em" stands for emphasis.<br>
+The end result makes <em>emphasis</em> in <em>itlaics</em>.
+<br>When you forget to make close the < em > <em>tag, everything after the tag is italicized.</em>
+<p><b>HTML Attributes</b></p>
+< TAG ATTR = "value"> Contents < / TAG >
+<br>Anchor - < a > - link 
+<br>< a href (attribute name) = "www.reddit.com (value)" > derp < / a >
+<p><b>Images</b></p>
+< img > - images 
+<br> < img src  = "url" alt = "text" > This is a void tag. 
+<p><b>White Space</b></p>
+White space is when text on multiple lines becomes text on one line.
+< br > break (void)
+<br>< p > paragraph 
+<br>< p > Content< / p >
+<p><b>Inline vs. Block</b></p>
+<em><b>Inline</b></em>
+<br>< br > 
+<br> text < br > text 
+<br> text
+<br> < b > < em > < img ><br>
+<br><em><b>Block</b></em>
+<br> < br > 
+<br> text < p > text 
+<br> < p > text < / p > text 
+<p><b>Span vs. Div</b></p>
+< span > 
+<br> text 
+<br> < / span > 
+<br>inline<br> 
+<br> < div > 
+<br> text 
+<br> < / div > 
+<br> block 
+<p><b><em>Terms</em></b></p>
+<b>Element:</b> an HTML element that referes to everything within a set of
+<br> opening and closing tags. 
+<br><b>Container Elements:</b> elements that do nothing but contain stuff inside of themsleves 
+<br><b>Attribute:</b> property of an HTML element for Ex: to set the 'href' attribute of an anchor
+<br>tag to the Udacity URL, you would write '< a href = www.udacity.com" >'
